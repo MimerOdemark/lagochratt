@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
+
+body{
+    background-color: coral;
+
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+nav a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header, main{
+    background-color: rgb(255, 208, 192);
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.imgtop{
+    width: 100px;
+    float: left;
+}
+
+nav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+h1, h2{
+    font-family: 'Pacifico', cursive;
+}
+
+main{
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    h1{
+        text-align: center;
+        background-color: white;
+        font-size: 1.6em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imgtop{
+        display: none;
+    }
+
+    nav a{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: aquamarine;
+        text-align: center;
+        text-decoration: none;
+        margin-left: -8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    ul{
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    ul{
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
